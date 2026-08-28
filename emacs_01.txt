@@ -103,3 +103,13 @@ Head: main 01
 
 q = Quit !! Buffer is gone
 It's done
+
+Making a remote Repo in terminal
+$ gh repo create Emacs --source=. --remote=origin --public
+
+C-x g M a
+remote_name:
+remote_URL:
+
+C-P push
+
