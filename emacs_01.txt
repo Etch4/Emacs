@@ -84,7 +84,23 @@ in ~/.emacs
 
 M-x package-install : magit
 
+
 1: C-x g => Git repository: ~/BV/Emacs
 2: <enter>
 3: Create repository in /home/tito/BV/Emacs/? [Y/N]
+
+Untracked files (3) <TAB>
+Press (s) to stage then (n) to go to nxt file
+Press (s) to stage then (n) to go to nxt file
+Press (s) to stage then (n) to go to nxt file
+
+Press (c) to commit, press (c) again.
+Commit comment, then C-c C-c
+
+Head: main 01
+> recent commits> <TAB>
+  press (n) <TAB> 0d38ae0
+
+q = Quit !! Buffer is gone
+It's done
 
