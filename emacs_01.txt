@@ -1,6 +1,6 @@
 The IceBreaker.
-I'm telling you I'm the shit 👍
-C-x 8 <enter> 1f44d <enter.
+8I'm telling you I'm the shit 👍
+C-x 8 <Enter> 1f44d <Enter.
 
 Using the Interactive Customization Menu (No Code)
 This is the easiest method if you prefer a graphical menu interface.
@@ -22,7 +22,7 @@ For the current session
 2: Type shift-select-mode and press Enter.
 3: Type nil or t and press Enter.
 
-The IceBreaker.
+gThe IceBreaker.
 I'm telling you I'm the shit. 👍
 
 Registers
@@ -56,7 +56,7 @@ bookmark-default-file
 12345678901234567890123456789012345678901234567890
 
 VIEW-MODE :
-M-x view-b <TAB> <enter>
+M-x view-b <TAB> <Enter>
 e = exit q = quit, but sucks really hard
 
 When do the Python
@@ -71,7 +71,7 @@ Turn it off fast M-x d-nu
 M-x (column-number-mode 1) # 1=on no toggle side effect
 
  == U+0098
-M-x set-variable <enter> cursor-type <enter> hollow <enter>
+M-x set-variable <Enter> cursor-type <Enter> hollow <Enter>
 (set-variable 'cursor-type '(hbar . 10))
 
 In ~/.emacs
@@ -86,7 +86,7 @@ M-x package-install : magit
 
 
 1: C-x g => Git repository: ~/BV/Emacs
-2: <enter>
+2: <Enter>
 3: Create repository in /home/tito/BV/Emacs/? [Y/N]
 
 Untracked files (3) <TAB>
@@ -108,8 +108,50 @@ Making a remote Repo in terminal
 $ gh repo create Emacs --source=. --remote=origin --public
 
 C-x g M a
-remote_name:
-remote_URL:
+remote_name: Emacs
+remote_URL: git@github.com:Etch4
 
 C-P push
+
+C-r (isearch-backward)
+C-r Ice
+if C-a 
+   Then cursor is on the (T)he Icebreaker.
+if <Enter>
+   Then cursor is on The Ic(e)breaker.
+
+#############################################33
+ISEARCH :
+C-s C-r incremental
+
+Esc $ => ispell
+Alt-Shift $ => ispell
+
+Search for ThumbsUp
+C-s C-x 8 <Enter> 1f44d
+
+C-x 8 e l emoji list
+C-x 8 e d emoji description
+SEARCH :
+C-s <Enter> [string] <Enter>
+C-r <Enter> [string] <Enter>
+
+Alt-s w  # word isearch
+M-s w 	 # word isearch
+Alt-s w <Enter>		# word search
+M-s w <Enter> 		# word search
+
+Alt-s w C-r <Enter> # word search reversed
+M-s w C-r <Enter>	# word search reversed
+
+M-x dictionary-search <Enter> : [word-to-look-up]
+M-x dictionary-tooltip-mode
+
+Esc-$ => ispell
+Alt-Shift-$ => ispell
+
+REGEX SEARCh
+C-M-s (isearch-forward-regexp)
+C-M-r (isearch-backward-regexp)
+
 
