@@ -111,7 +111,7 @@ C-x g M a
 remote_name: Emacs
 remote_URL: git@github.com:Etch4
 
-C-P push
+C-P p => push 
 
 C-r (isearch-backward)
 C-r Ice
@@ -154,4 +154,10 @@ REGEX SEARCh
 C-M-s (isearch-forward-regexp)
 C-M-r (isearch-backward-regexp)
 
-
+REGEX
+$.[*+?]\^
+? => 0|1
+* >= 0
++ > 0
+[charset] [^charset]
+[[:charclass:]]
