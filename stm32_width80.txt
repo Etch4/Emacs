@@ -1,4 +1,8 @@
-﻿Time-stamp: <2026-08-31 19:37:56 tito>
+﻿Time-stamp: <2026-08-31 19:50:37 tito>
+
+################################################
+$ cat stm32.txt | fold -w 80 -s > stm32_80.txt #
+################################################
 
 Getting Started with STM32 Programming
 To begin your journey with STM32 programming, you'll need to set up your 

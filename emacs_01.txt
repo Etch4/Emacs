@@ -1,4 +1,4 @@
-Time-stamp: <2026-08-31 19:37:22 tito>
+Time-stamp: <2026-08-31 19:48:34 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -7,6 +7,10 @@ Time-stamp: <2026-08-31 19:37:22 tito>
 The IceBreaker.
 I'm telling you I'm the shit 👍
 C-x 8 <Enter> 1f44d <Enter.
+
+################################################
+$ cat stm32.txt | fold -w 80 -s > stm32_80.txt #
+################################################
 
 Using the Interactive Customization Menu (No Code)
 This is the easiest method if you prefer a graphical menu interface.
@@ -230,3 +234,9 @@ Ja, dan wordt de time-stamp automatisch geupdated.
 
 REVERT :
 C-x x g => revert-buffer-quick
+
+DIRECTORY :
+C-x C-d => (list-directory)
+C-u C-x C-d => Verbose
+M-x make-directory <Return> dirname <Return>
+M-x delete-directory <Return> dirname <Return>
