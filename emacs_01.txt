@@ -1,3 +1,6 @@
+~/.emacs
+( find-file "~/BV/Emacs/emacs_01.txt" )
+
 The IceBreaker.
 8I'm telling you I'm the shit 👍
 C-x 8 <Enter> 1f44d <Enter.
@@ -196,3 +199,24 @@ M-t => 2 words
 C-M-t 2 balanced expressions
 C-x C-t 2 lines
 M-x transpose-regions (2)
+
+MACRO :
+KBD Macro Ring C-x C-k prefix
+C-x C-k C-k exe
+C-x C-k C-p prev
+C-x C-k C-n nxt
+C-x C-k C-i insert counter
+C-x C-k n name it
+C-x C-k b bind
+C-x C-k C-e edit macro
+C-x C-k e newname <Return>
+C-x C-k l list
+
+FILES :
+C-x C-f => ( find-file )
+C-x C-v => ( find-alternate-file )
+C-x C-r => ( find-file-read-only )
+C-x 4 f => ( find-file-other-window )
+C-x 5 f => ( find-file-other-frame )
+C-x C-q = make read-only
+find-file-run-dired nil
