@@ -73,7 +73,7 @@ M-x (column-number-mode 1) # 1=on no toggle side effect
  == U+0098
 M-x set-variable <Enter> cursor-type <Enter> hollow <Enter>
 (set-variable 'cursor-type '(hbar . 10))
-
+M-: => (eval-expression) 
 In ~/.emacs
    (setq-default cursor-type '(hbar . 10))
 
@@ -161,3 +161,38 @@ $.[*+?]\^
 + > 0
 [charset] [^charset]
 [[:charclass:]]
+
+U+00AA = ª
+U+24D0 = ⓐ
+U+FB00 = ﬀ
+
+foo\|bar
+\(. . .\)
+ba\(na\)+  =>  banana
+x\{4\} xxxx
+x\{4,\} xxxx =>
+x\{2,4\} xx xxx xxxx
+M-% Alt-%
+C-x Esc Esc repeat
+q = quit
+. = once
+! = all
+[Uu] = undo
+C-r = recursive edit
+C-w = Del
+	edit new
+		 C-Alt-c
+e => minibuffer <Return>
+E => Case
+C-h : ? : F1 = help
+
+C-/ undo
+M-x revert-buffer
+M-x se-va
+
+TRANSPOSING :
+C-t => 2 letters
+M-t => 2 words
+C-M-t 2 balanced expressions
+C-x C-t 2 lines
+M-x transpose-regions (2)
