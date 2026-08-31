@@ -1,4 +1,6 @@
-﻿Getting Started with STM32 Programming
+﻿Time-stamp: <2026-08-31 19:37:56 tito>
+
+Getting Started with STM32 Programming
 To begin your journey with STM32 programming, you'll need to set up your 
 development environment. Let's explore the essential components that will help 
 you get started.

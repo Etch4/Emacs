@@ -1,11 +1,11 @@
-Time-stamp: <2026-08-31 18:54:48 tito>
+Time-stamp: <2026-08-31 19:37:22 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
 ( add-hook 'before-save-hook 'time-stamp )
 
 The IceBreaker.
-8I'm telling you I'm the shit 👍
+I'm telling you I'm the shit 👍
 C-x 8 <Enter> 1f44d <Enter.
 
 Using the Interactive Customization Menu (No Code)
@@ -225,6 +225,8 @@ C-x C-q = make read-only
 find-file-run-dired nil
 Alt-Shift : create-lockfiles t
 
-Moet er een verandering doorgevoerd zijn.
+Moet er een verandering doorgevoerd zijn ?
 Ja, dan wordt de time-stamp automatisch geupdated.
 
+REVERT :
+C-x x g => revert-buffer-quick
