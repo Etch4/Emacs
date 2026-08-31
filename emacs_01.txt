@@ -1,4 +1,4 @@
-Time-stamp: <2026-08-31 19:48:34 tito>
+Time-stamp: <2026-08-31 22:02:40 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -240,3 +240,12 @@ C-x C-d => (list-directory)
 C-u C-x C-d => Verbose
 M-x make-directory <Return> dirname <Return>
 M-x delete-directory <Return> dirname <Return>
+M-x rename-file <Return> ... <Return> ... <Return>
+M-x copy-directory => cp -r
+M-x copy-file
+M-x delete-file
+C-x i => (insert-file)
+
+BUFFERS :
+C-x C-b => (list-buffers)
+C-x b => (switch-to-buffer)
