@@ -1,4 +1,4 @@
-Time-stamp: <2026-08-31 22:02:40 tito>
+Time-stamp: <2026-09-01 15:13:01 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -249,3 +249,48 @@ C-x i => (insert-file)
 BUFFERS :
 C-x C-b => (list-buffers)
 C-x b => (switch-to-buffer)
+C-x -> left nxt buffer
+C-x <- right prev buffer
+C-x 4 b => (switch-to-buffer-other-window)
+C-x 4 f => (swtich-to-file-other-window)
+C-x 5 b => (switch=to-buffer-other-frame)
+C-x 5 f => (find-file-other-frame)
+
+M-g M-g => (goto-line)
+C-u M-g M-g (goto-line-other-	buffer)
+
+C-u C-x C-b [files only]
+C-x C-b *Buffer List*
+CRM Buf   Size Mode   File
+. [current]
+ % [Read-Only]
+ * [Modified]
+ 
+Each frame has it's own sest of windows.
+C-x 2 => (split-window-below)
+C-x 3 => I | I (spit-window-right)
+M-x window-swap-states <Return>
+C-M v => scroll-other-window-down
+C-S-M v => scroll-other-window-up
+
+C-x 4 b => Buf
+C-x 4 f => file
+C-x 4 d => directory
+C-x 4 m => mail
+C-x 4 r => ro
+C-x 4 [41] => ?
+
+C-x 0 => DEL window
+C-x 1 => 1 window
+C-x 4 0 => DEL window + Buf
+C-x w <Return> buf <Return> => DEL window showing buf
+C-x ^ => taller hor
+C-x - => shorter hor
+C-x { => shrink vert
+c-x } => enlarge vert
+C-x + => same size
+
+Use the same window
+display-buffer => in other window
+display-buffer =? make other window
+
