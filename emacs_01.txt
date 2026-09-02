@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-01 15:13:01 tito>
+Time-stamp: <2026-09-02 17:46:14 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -7,6 +7,14 @@ Time-stamp: <2026-09-01 15:13:01 tito>
 The IceBreaker.
 I'm telling you I'm the shit 👍
 C-x 8 <Enter> 1f44d <Enter.
+
+TEXT-WIDTH
+C-x f => (set-fill-column) 50
+C-x f => (set-fill-column_ 50
+C-x h => (mark-whole-buffer)
+C-x h => (mark-whole-buffer_
+M-x (fill-region)
+M-x (fill-region)
 
 ################################################
 $ cat stm32.txt | fold -w 80 -s > stm32_80.txt #
@@ -294,3 +302,116 @@ Use the same window
 display-buffer => in other window
 display-buffer =? make other window
 
+M-x cd <Return> edit <Return>
+M-x cd <Return> edit <Return>
+
+global-tab-line-mode
+C-x <-
+C-x ->
+
+mouse-set-point
+mouse-set-region
+http://gnu.org
+
+C-x 5 C-f		find-file-other-frame
+C-x 5 C-o		display-buffer-other-frame
+C-x 5 .			xref-find-definitions-other-frame
+C-x 5 0			delete-frame
+C-x 5 1			delete-other-frames
+C-x 5 2			make-frame-command
+C-x 5 5			other-frame-prefix
+C-x 5 b			switch-to-buffer-other-frame
+C-x 5 c			clone-frame
+C-x 5 d			dired-other-frame
+C-x 5 f			find-file-other-frame
+C-x 5 m			compose-mail-other-frame
+C-x 5 o			other-frame
+C-x 5 p			project-other-frame-command
+C-x 5 r			find-file-read-only-other-frame
+C-x 5 u			undelete-frame
+
+(add-to-list 'default-frame-alist '(width . 90))
+(add-to-list 'default-frame-alist 'height . 40))
+(add-to-list 'default-frame-alist '(font . "Monospace-10"))
+
+~/.emacs
+( global-tab-line-mode 1 )
+( tab-bar-mode 1 )
+
+C-x t C-f		find-file-other-tab
+C-x t RET		tab-switch
+C-x t C-r		find-file-read-only-other-tab
+C-x t 0			tab-close
+C-x t 1			tab-close-other
+C-x t 2			tab-new
+C-x t G			tab-group
+C-x t M			tab-move-to
+C-x t N			tab-new-to
+C-x t O			tab-previous
+C-x t b			switch-to-buffer-other-tab
+C-x t d			dired-other-tab
+C-x t f			find-file-other-tab
+C-x t m			tab-move
+C-x t n			tab-duplicate
+C-x t o			tab-next
+C-x t p			project-other-tab-command
+C-x t r			tab-rename
+C-x t t			other-tab-prefix
+C-x t u			tab-undo
+
+
+So Yesterday
+ C-x 5 2 => create new frame
+ C-x 5 o => other
+ C-x 5 0 => DEL frame
+ C-h h => hello thing
+ C-h L
+ C-x 8 <Return>
+ C-\ => input method
+ C-x <Return> c cp850 <Return> C-x C-f [file] <Return>
+
+(MAJOR MODE)
+	   text
+	   programming
+	   Dired, Mail
+
+Major mode, then add function to that mode
+(add-hook 'c++-mode-hook 'display-line-numbers-modae)
+(add-hook 'c-mode-hook 'display-line-numbers-mode)
+
+MINOR MODE
+	  auto-fill-mode (toggle)
+	  You can enable | disable it
+
+
+Chap 21 Indentation
+C-M-\ => (indent-region)
+(tab-width_
+(indent-tab-mode nil)
+
+There are cmds to convert TABS and SPC
+From SPC-to-TABS M-x tabify
+From TABS-to-SPC M-x untabify
+
+int a = 0;
+short foo = 3
+
+C-x h
+M-x align
+
+int		a	= 0;
+short	foo = 3;
+
+HN
+text-mode
+outline-mode
+org-mode
+
+C-x C-l => (downcase-region)
+C-x C-u => (upcase-region)
+M-l M-u M-c
+
+Esc <TAB> completion-at-point
+
+TEX :
+dnf install texlive-scheme-basic
