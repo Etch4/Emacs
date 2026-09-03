@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 16:54:03 tito>
+Time-stamp: <2026-09-03 16:57:39 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -508,7 +508,14 @@ if M-x ielm
    then ELISP>
 
 [C-x v v] ^2
+
 C-x v v => Summary: 19 C-c C-c
+This stages and commit.
 
 C-x v P => git push
-is this gonna work also
+Is this gonna work also.
+
+SUMMARY :
+C-x v v <Comment> C-c C-c
+C-x v P
+
