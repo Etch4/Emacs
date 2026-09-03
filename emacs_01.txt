@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-02 17:46:14 tito>
+Time-stamp: <2026-09-03 13:52:43 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -7,6 +7,7 @@ Time-stamp: <2026-09-02 17:46:14 tito>
 The IceBreaker.
 I'm telling you I'm the shit 👍
 C-x 8 <Enter> 1f44d <Enter.
+ts => tree-sitter
 
 TEXT-WIDTH
 C-x f => (set-fill-column) 50
@@ -19,6 +20,7 @@ M-x (fill-region)
 ################################################
 $ cat stm32.txt | fold -w 80 -s > stm32_80.txt #
 ################################################
+$
 
 Using the Interactive Customization Menu (No Code)
 This is the easiest method if you prefer a graphical menu interface.
@@ -124,6 +126,7 @@ It's done
 
 Making a remote Repo in terminal
 $ gh repo create Emacs --source=. --remote=origin --public
+$
 
 C-x g M a
 remote_name: Emacs
@@ -415,3 +418,82 @@ Esc <TAB> completion-at-point
 
 TEX :
 dnf install texlive-scheme-basic
+https://elpa.gnu.org/packages
+M-x package-install <Return> auctex <Return>
+
+Nroff Mode
+M-x nroff-mode
+The man pages
+
+EDIT PROGRAMS :
+     Indentation : Balanced Parentheses
+     Alignment : Syntax Highlighting
+
+Edit : Compile : Debug
+M-x c-mode
+	prog-mode-hook
+	c-mode-hook
+
+More Info => M-x info
+
+Moving by Defun
+ts => tree-sitter
+
+C-M-a (beginning-of-defun)
+C-M-e (end-of-defun)
+C-M-h (mark-defun)
+
+(which-function-modes t)
+C-M-q
+M-q
+C-c C-q => (c-indent-defun)
+C-c C-q => (c-ts-mode-indent-defun)
+
+C-x h Esc C-\
+
+M-x c-set-style <Return> ?
+k&r, bsd, linux, python, gnu, stroustrup, java
+
+(setq c-default-styl
+	  '((java-mode . "java")
+	  (c-mode . "k&r")
+	  (other . "gnu")))
+
+
+Balanced expressions
+C-M-[f, b, k]
+
+In C languages
+
+M-;
+/* works best in active region */
+
+C-x C-; toggle comments
+EL => Emacs Lisp
+
+COMPILATION :
+M-x compile
+M-x recompile => also g in *compilation* buffer
+M-: compile-command
+U+2191
+C-↑ = previous cmd in M-x shell
+U+2193
+C-↓ = next cmd in M-x shell
+
+The *compilation* buffer uses major mode compilation-mode.
+if (compile-error)
+   then ( *compilation* has underlined line)
+   goto-line <Return>
+You are on the ERROR.
+
+M-x se-va
+compilation-auto-jump-to-first-error
+t
+
+M-x flymake-mode
+Python debugger PDB
+GNU debuggers
+M-x gdb
+M-x gud-gdb
+M-x pdb
+
