@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 16:33:19 tito>
+Time-stamp: <2026-09-03 16:42:14 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
