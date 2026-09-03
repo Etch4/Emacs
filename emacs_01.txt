@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 13:52:43 tito>
+Time-stamp: <2026-09-03 16:33:19 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -497,3 +497,14 @@ M-x gdb
 M-x gud-gdb
 M-x pdb
 
+M-x se-va
+gdb-many-windows
+t
+
+When done with debugging
+kill the frame C-x k
+
+if M-x ielm
+   then ELISP>
+
+C-x v v
