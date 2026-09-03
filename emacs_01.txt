@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 18:38:27 tito>
+Time-stamp: <2026-09-03 20:12:14 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -514,7 +514,7 @@ Only for the first time.
 C-x v v => Summary: 19 C-c C-c
 This stages and commit.
 
-C-x v P => git push
+C-x v P => (vc-push) =>  git push
 Is this gonna work also.
 
 SUMMARY :
@@ -530,4 +530,28 @@ git restore --staged <file>
 .gitignore in MAIN DIRECTORY, not .git
 Also add .gitignore itself in it
 
-C-u C-x v v
+C-x v i => track file, register file
+C-x v l => (vc-print-log)
+
+C-x v d (vc-dir)  == $ git status
+VC backend : Git
+Working dir: ~/BV/Emacs/
+Branch     : main
+Stash      : Nothing stashed
+
+                         ./
+     unregistered        doit
+     edited              emacs_01.txt
+
+while in VC-DIR Mode
+C-x v G put file in .gitignore
+
+M-x abbrev-mode
+
+Dired
+C-x C-d => (list-directory)
+C-x d => (dired)
+C-x d *.c <Return>
+C-x 4 d => (dired-other-window)
+C-x 5 d =? (dired-ohter-frame)
+
