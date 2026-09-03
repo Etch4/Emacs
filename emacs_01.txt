@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 16:57:39 tito>
+Time-stamp: <2026-09-03 18:38:27 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -507,6 +507,8 @@ kill the frame C-x k
 if M-x ielm
    then ELISP>
 
+Only for the first time.
+*vc-log*
 [C-x v v] ^2
 
 C-x v v => Summary: 19 C-c C-c
@@ -519,3 +521,13 @@ SUMMARY :
 C-x v v <Comment> C-c C-c
 C-x v P
 
+emacs ~/.config/git/ignore
+\*vc-log\*
+
+$ git ls-files
+
+git restore --staged <file>
+.gitignore in MAIN DIRECTORY, not .git
+Also add .gitignore itself in it
+
+C-u C-x v v
