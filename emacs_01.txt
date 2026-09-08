@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-03 20:12:14 tito>
+Time-stamp: <2026-09-09 01:03:37 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -553,5 +553,55 @@ C-x C-d => (list-directory)
 C-x d => (dired)
 C-x d *.c <Return>
 C-x 4 d => (dired-other-window)
-C-x 5 d =? (dired-ohter-frame)
+C-x 5 d => (dired-other-frame)
+
+
+offlineimap
+notmuch new
+M-x notmuch
+C-x m = new mail
+C-c C-f C-t => To: line
+C-c C-f C-s => Subject: line
+C-c C-a => attach file
+C-c C-a => attach file
+r is reply
+then error => ignore => sending ... done.
+
+M-x eshell is better
+
+M-S-x % => query-replace
+Esc S-% => query-replace
+LVL_01
+C-r => recursive edit
+LVL_02
+C-M-c
+LVL_01
+
+M-x print-buffer
+M-x browse-url <Return> URL: <Return>
+
+file tetris.el in /opt/Tetris
+In .emacs
+(add-to-list 'load-path "/Opt/Tetris")
+(require 'tetris)
+
+C-s incr-search <Return>
+C-s C-s repeat
+C-s C-r repeat
+
+$ ln -s source link
+GNU ELPA https://elpa.gnu.org
+GNU ELPA https://elpa.nongnu.org
+
+M-x package-upgrade-all
+
+Emacs Key: /usr/share/emacs/30.2/etc/package-keyring.gpg
+(setq package-check-signature nil)
+
+The packages are in ~/.emacs.d/elpa
+M-x package-list
+
+M-x magit werkt nog als een nieuwe.
+Doet Emacs VC het ook nog ??
+
 
