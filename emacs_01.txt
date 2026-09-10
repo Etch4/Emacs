@@ -1,4 +1,4 @@
-Time-stamp: <2026-09-09 01:03:37 tito>
+Time-stamp: <2026-09-09 20:26:13 tito>
 
 ~/.emacs
 ( find-file "~/BV/Emacs/emacs_01.txt" )
@@ -604,4 +604,27 @@ M-x package-list
 M-x magit werkt nog als een nieuwe.
 Doet Emacs VC het ook nog ??
 
+C-h v (describe-variable)
+M-x set-variable
+M-: (eval-expression)
+
+~/.local/share/Trash
+C-h b current keybinding
+
+Prefix KB C-x C-c
+
+~/.emacs
+keymap-global-set <Return> C-z shell <Return>
+keymap-set <Return> C-z shell <Return>
+
+The github
+$ git --global user.name "..."
+$ git --global user.email "..."
+
+# dnf5 install ogg123 mpg123 aplay sox
+sox include play
+
+This is the shit !!!
+Esc-! shell-cmd: play ~/Music/ni_final.wav &
+Luisteren zonder emacs te verlaten 
 

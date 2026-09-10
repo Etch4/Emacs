@@ -1,0 +1,6 @@
+.gitignore
+/RES/
+\*vc-log\*
+stm32.txt
+stm32_width80.txt
+doit
